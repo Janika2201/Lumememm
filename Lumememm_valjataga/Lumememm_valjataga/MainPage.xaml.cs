@@ -28,14 +28,14 @@ namespace Lumememm_valjataga
         //Спрятать снеговика
         private void Opacity_ValueChanged(object sender, ValueChangedEventArgs e)
         {
-            lummi.Opacity = SliderOpacity.Value / 100;
-            if((int)lummi.Opacity == 1)
+            lummi.Opacity = Opacity.Value / 100;
+            if((int)lummi.Opacity == 0)
             {
-                SliderLabel.Text = "";
+                SliderLabel.Text = "sulanud lumememm";
             }
             else
             {
-                SliderLabel.Text = "sulanud lumememm";
+                SliderLabel.Text = "";
             }
         }
         //Раскрасить случайным цветом
