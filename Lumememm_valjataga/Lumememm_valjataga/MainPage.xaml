@@ -2,36 +2,34 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Lumememm_valjataga.MainPage"
-             BackgroundColor="Aqua">
+             Title="Lumememm"
+	         BackgroundColor="Aqua">
 
-    <StackLayout>
-        <BoxView x:Name="boxView"
-                   BackgroundColor="White"
-                   VerticalOptions="FillAndExpand"
-                   Margin="10"></BoxView>
+	<StackLayout x:Name="lummi" BackgroundColor="Aqua">
         <Frame x:Name="head" BackgroundColor="White" 
                    Padding="60" 
-                   CornerRadius="90" 
+                   CornerRadius="60" 
                    Margin="90,0">
         </Frame>
         <Frame x:Name="keha" BackgroundColor="White" 
                    Padding="60" 
-                   CornerRadius="90" 
+                   CornerRadius="60" 
                    Margin="90,0">
         </Frame>
         <Frame x:Name="jalad" BackgroundColor="White" 
                    Padding="60" 
-                   CornerRadius="90" 
+                   CornerRadius="60" 
                    Margin="90,0">
         </Frame>
         <StackLayout  Margin="20,35,20,20">
-            <Slider x:Name="blueSlider" Minimum="0" Maximum="255" Value="15"
-                   ValueChanged="blueSlider_ValueChanged"  VerticalOptions="Center"></Slider>
-            <Label x:Name="blueLabel" 
+            <Slider x:Name="Opacity" Minimum="0" Maximum="100" Value="0"
+                   ValueChanged="Opacity_ValueChanged"></Slider>
+            <Label x:Name="SliderLabel" 
                        VerticalOptions="Center"/>
             <Button x:Name="Btn"
                     Text="random"
-                    HorizontalOptions="FillAndExpand"/>
+                    HorizontalOptions="FillAndExpand"
+					Cliked="random_Cliked"/>
         </StackLayout>
     </StackLayout>
 </ContentPage>

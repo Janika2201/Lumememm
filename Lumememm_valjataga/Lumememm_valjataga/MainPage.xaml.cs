@@ -25,6 +25,20 @@ namespace Lumememm_valjataga
 
 
         }
+        //Спрятать снеговика
+        private void Opacity_ValueChanged(object sender, ValueChangedEventArgs e)
+        {
+            lummi.Opacity = SliderOpacity.Value / 100;
+            if((int)snowman.Opacity == 1)
+            {
+                SliderLabel.Text = "";
+            }
+            else
+            {
+                SliderLabel.Text = "sulanud lumememm";
+            }
+        }
+        //Раскрасить случайным цветом
         Random rnd = new Random();
         private void Tap_Tapped(object sender, EventArgs e)
         {
@@ -53,7 +67,7 @@ namespace Lumememm_valjataga
                 jalad.BackgroundColor = Color.FromRgb(Red, Green,Blue);
             }
         }
-
+        //всплываюзего окна
         private void AletrButton_Clicked()
         {
             {
