@@ -54,11 +54,10 @@ namespace Lumememm_valjataga
             }
         }
 
-        private void blueSlider_ValueChanged(object sender, ValueChangedEventArgs args)
+        private void AletrButton_Clicked()
         {
-            if (sender == blueSlider)
             {
-                blueLabel.Text = String.Format("Blue = {0:X2}", (int)args.NewValue);
+               DisplayAlert("Уведомление!", "У тебя красивый снеговик","Жми");
             }
         }
     }
