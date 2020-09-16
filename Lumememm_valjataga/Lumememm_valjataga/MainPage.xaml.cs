@@ -29,7 +29,7 @@ namespace Lumememm_valjataga
         private void Opacity_ValueChanged(object sender, ValueChangedEventArgs e)
         {
             lummi.Opacity = SliderOpacity.Value / 100;
-            if((int)snowman.Opacity == 1)
+            if((int)lummi.Opacity == 1)
             {
                 SliderLabel.Text = "";
             }
