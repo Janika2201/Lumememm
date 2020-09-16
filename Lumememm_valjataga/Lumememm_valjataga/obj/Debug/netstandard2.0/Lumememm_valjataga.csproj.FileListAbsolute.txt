@@ -1,0 +1,14 @@
+C:\Users\opilane\source\repos\Lumememm_valjataga\Lumememm_valjataga\Lumememm_valjataga\bin\Debug\netstandard2.0\Lumememm_valjataga.deps.json
+C:\Users\opilane\source\repos\Lumememm_valjataga\Lumememm_valjataga\Lumememm_valjataga\bin\Debug\netstandard2.0\Lumememm_valjataga.dll
+C:\Users\opilane\source\repos\Lumememm_valjataga\Lumememm_valjataga\Lumememm_valjataga\bin\Debug\netstandard2.0\ref\Lumememm_valjataga.dll
+C:\Users\opilane\source\repos\Lumememm_valjataga\Lumememm_valjataga\Lumememm_valjataga\bin\Debug\netstandard2.0\Lumememm_valjataga.pdb
+C:\Users\opilane\source\repos\Lumememm_valjataga\Lumememm_valjataga\Lumememm_valjataga\obj\Debug\netstandard2.0\Lumememm_valjataga.csprojAssemblyReference.cache
+C:\Users\opilane\source\repos\Lumememm_valjataga\Lumememm_valjataga\Lumememm_valjataga\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\opilane\source\repos\Lumememm_valjataga\Lumememm_valjataga\Lumememm_valjataga\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\opilane\source\repos\Lumememm_valjataga\Lumememm_valjataga\Lumememm_valjataga\obj\Debug\netstandard2.0\Lumememm_valjataga.AssemblyInfoInputs.cache
+C:\Users\opilane\source\repos\Lumememm_valjataga\Lumememm_valjataga\Lumememm_valjataga\obj\Debug\netstandard2.0\Lumememm_valjataga.AssemblyInfo.cs
+C:\Users\opilane\source\repos\Lumememm_valjataga\Lumememm_valjataga\Lumememm_valjataga\obj\Debug\netstandard2.0\Lumememm_valjataga.csproj.CoreCompileInputs.cache
+C:\Users\opilane\source\repos\Lumememm_valjataga\Lumememm_valjataga\Lumememm_valjataga\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\opilane\source\repos\Lumememm_valjataga\Lumememm_valjataga\Lumememm_valjataga\obj\Debug\netstandard2.0\Lumememm_valjataga.dll
+C:\Users\opilane\source\repos\Lumememm_valjataga\Lumememm_valjataga\Lumememm_valjataga\obj\Debug\netstandard2.0\ref\Lumememm_valjataga.dll
+C:\Users\opilane\source\repos\Lumememm_valjataga\Lumememm_valjataga\Lumememm_valjataga\obj\Debug\netstandard2.0\Lumememm_valjataga.pdb

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Lumememm_valjataga.MainPage"
+             BackgroundColor="Aqua">
+
+    <StackLayout>
+        <BoxView x:Name="boxView"
+                   BackgroundColor="White"
+                   VerticalOptions="FillAndExpand"
+                   Margin="10"></BoxView>
+        <Frame x:Name="head" BackgroundColor="White" 
+                   Padding="60" 
+                   CornerRadius="90" 
+                   Margin="90,0">
+        </Frame>
+        <Frame x:Name="keha" BackgroundColor="White" 
+                   Padding="60" 
+                   CornerRadius="90" 
+                   Margin="90,0">
+        </Frame>
+        <Frame x:Name="jalad" BackgroundColor="White" 
+                   Padding="60" 
+                   CornerRadius="90" 
+                   Margin="90,0">
+        </Frame>
+        <StackLayout  Margin="20,35,20,20">
+            <Slider x:Name="blueSlider" Minimum="0" Maximum="255" Value="15"
+                   ValueChanged="blueSlider_ValueChanged"  VerticalOptions="Center"></Slider>
+            <Label x:Name="blueLabel" 
+                       VerticalOptions="Center"/>
+            <Button x:Name="Btn"
+                    Text="random"
+                    HorizontalOptions="FillAndExpand"/>
+        </StackLayout>
+    </StackLayout>
+</ContentPage>
