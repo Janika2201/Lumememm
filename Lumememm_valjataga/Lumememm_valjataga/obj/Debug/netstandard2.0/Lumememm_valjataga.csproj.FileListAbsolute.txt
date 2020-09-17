@@ -12,3 +12,4 @@ C:\Users\opilane\source\repos\Lumememm_valjataga\Lumememm_valjataga\Lumememm_val
 C:\Users\opilane\source\repos\Lumememm_valjataga\Lumememm_valjataga\Lumememm_valjataga\obj\Debug\netstandard2.0\Lumememm_valjataga.dll
 C:\Users\opilane\source\repos\Lumememm_valjataga\Lumememm_valjataga\Lumememm_valjataga\obj\Debug\netstandard2.0\ref\Lumememm_valjataga.dll
 C:\Users\opilane\source\repos\Lumememm_valjataga\Lumememm_valjataga\Lumememm_valjataga\obj\Debug\netstandard2.0\Lumememm_valjataga.pdb
+C:\Users\opilane\source\repos\Lumememm_valjataga\Lumememm_valjataga\Lumememm_valjataga\obj\Debug\netstandard2.0\Absolute.xaml.g.cs

@@ -25,7 +25,7 @@ namespace Lumememm_valjataga
 
 
         }
-        //Спрятать снеговика и Отобразить снеговика.
+        //Спрятать снеговика
         private void Opacity_ValueChanged(object sender, ValueChangedEventArgs e)
         {
             lummi.Opacity = Opacity.Value / 100;

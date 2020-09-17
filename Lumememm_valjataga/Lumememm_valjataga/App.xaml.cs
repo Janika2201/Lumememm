@@ -10,7 +10,7 @@ namespace Lumememm_valjataga
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new Absolute();
         }
 
         protected override void OnStart()
