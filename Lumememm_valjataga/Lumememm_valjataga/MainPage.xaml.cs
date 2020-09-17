@@ -25,6 +25,7 @@ namespace Lumememm_valjataga
 
 
         }
+ 
         //Спрятать снеговика и появление.
         private void Opacity_ValueChanged(object sender, ValueChangedEventArgs e)
         {
