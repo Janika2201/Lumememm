@@ -25,7 +25,7 @@ namespace Lumememm_valjataga
 
 
         }
-        //Спрятать снеговика
+        //Спрятать снеговика и появление.
         private void Opacity_ValueChanged(object sender, ValueChangedEventArgs e)
         {
             lummi.Opacity = Opacity.Value / 100;
@@ -67,13 +67,10 @@ namespace Lumememm_valjataga
                 jalad.BackgroundColor = Color.FromRgb(Red, Green,Blue);
             }
         }
-        //всплываюзего окна
-        private void AletrButton_Clicked()
+        
+        //всплывающие окно
+        private void Btn_Clicked(object sender, EventArgs e)
         {
-            {
-               DisplayAlert("Уведомление!", "У тебя красивый снеговик","Жми");
-            }
+            DisplayAlert("Pange tähele!", "Teil on ilus lumememm", "Press");
         }
-    }
-}
          
