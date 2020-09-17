@@ -25,6 +25,20 @@ namespace Lumememm_valjataga
 
 
         }
+        //Спрятать снеговика и Отобразить снеговика.
+        private void Opacity_ValueChanged(object sender, ValueChangedEventArgs e)
+        {
+            lummi.Opacity = Opacity.Value / 100;
+            if ((int)lummi.Opacity == 0)
+            {
+                SliderLabel.Text = "sulanud lumememm";
+            }
+            else
+            {
+                SliderLabel.Text = "";
+            }
+        }
+        //Раскрасить случайным цветом
         Random rnd = new Random();
         private void Tap_Tapped(object sender, EventArgs e)
         {
@@ -50,17 +64,13 @@ namespace Lumememm_valjataga
                 int Red = rnd.Next(0, 255);
                 int Green = rnd.Next(0, 255);
                 int Blue = rnd.Next(0, 255);
-                jalad.BackgroundColor = Color.FromRgb(Red, Green,Blue);
+                jalad.BackgroundColor = Color.FromRgb(Red, Green, Blue);
             }
         }
-
-        private void blueSlider_ValueChanged(object sender, ValueChangedEventArgs args)
+        //всплывающие окно
+        private void Btn_Clicked(object sender, EventArgs e)
         {
-            if (sender == blueSlider)
-            {
-                blueLabel.Text = String.Format("Blue = {0:X2}", (int)args.NewValue);
-            }
+            DisplayAlert("Pange tähele!", "Teil on ilus lumememm", "Press");
         }
     }
 }
-         
